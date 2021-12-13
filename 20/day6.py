@@ -11,9 +11,6 @@ def _main(p2):
 
     return ret
 
-def _pt2():
-    return 0
-
 if __name__ == '__main__':
     # _input = [
     #     [
