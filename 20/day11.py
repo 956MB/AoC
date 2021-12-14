@@ -6,6 +6,7 @@ def _main(p2):
     global _input
     cop = copy.deepcopy(_input)
     co = 5 if p2 else 4
+    s1 = False if p2 else True
     # _loop(_input)
 
     while True:
@@ -14,27 +15,15 @@ def _main(p2):
             for x in range(len(_input[y])):
                 c = _input[y][x]
                 if c == ".": continue
-                _all, ul, ur, u, d, l, r, dl, dr = [], ".", ".", ".", ".", ".", ".", ".", "."
                 
-                if not p2:
-                    if _inside(y-1, x-1): ul = _input[y-1][x-1]
-                    if _inside(y-1, x+1): ur = _input[y-1][x+1]
-                    if _inside(y-1, x): u = _input[y-1][x]
-                    if _inside(y+1, x): d = _input[y+1][x]
-                    if _inside(y, x-1): l = _input[y][x-1]
-                    if _inside(y, x+1):r = _input[y][x+1]
-                    if _inside(y+1, x-1): dl = _input[y+1][x-1]
-                    if _inside(y+1, x+1): dr = _input[y+1][x+1]
-                else:
-                    ul = _traverse(y, x, -1, -1)
-                    ur = _traverse(y, x, -1, 1)
-                    u = _traverse(y, x, -1, 0)
-                    d = _traverse(y, x, 1, 0)
-                    l = _traverse(y, x, 0, -1)
-                    r = _traverse(y, x, 0, 1)
-                    dl = _traverse(y, x, 1, -1)
-                    dr = _traverse(y, x, 1, 1)
-
+                ul = _traverse(y, x, -1, -1, s1)
+                ur = _traverse(y, x, -1, 1, s1)
+                u = _traverse(y, x, -1, 0, s1)
+                d = _traverse(y, x, 1, 0, s1)
+                l = _traverse(y, x, 0, -1, s1)
+                r = _traverse(y, x, 0, 1, s1)
+                dl = _traverse(y, x, 1, -1, s1)
+                dr = _traverse(y, x, 1, 1, s1)
                 _all = [ul, ur, u, d, l, r, dl, dr]
 
                 if c == "L":
@@ -57,7 +46,7 @@ def _loop(l):
         print()
     print()
 
-def _traverse(starty, startx, plusy, plusx):
+def _traverse(starty, startx, plusy, plusx, stop1):
     global _input
     y = starty + plusy
     x = startx + plusx
@@ -65,6 +54,7 @@ def _traverse(starty, startx, plusy, plusx):
 
     while _inside(y, x):
         ret = _input[y][x]
+        if stop1: return ret
         if ret != ".":
             return ret
         y += plusy
