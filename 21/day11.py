@@ -4,6 +4,7 @@ import os
 from time import sleep
 
 def _main():
+    # start_time = time.time()
     _print(0, 0, 0)
 
     for s in range(steps):
@@ -18,7 +19,10 @@ def _main():
             for x in range(len(_input[y])):
                 if _input[y][x] >= 10: _input[y][x] = 0
 
-        if all(v == 0 for v in [item for sublist in _input for item in sublist]): return s+1
+        if all(v == 0 for v in [item for sublist in _input for item in sublist]):
+            # end_time = time.time()
+            # print(f"It took {end_time-start_time:.2f} seconds to compute")
+            return s+1
 
     return flashes
 
@@ -45,18 +49,18 @@ def _print(step, x, y):
         print()
         for py in range(len(_input)):
             for px in range(len(_input[y])):
-                if py == y and px == x:
-                    print("\033[31m{} \033[0m".format(_input[py][px]), end="")
+                # if py == y and px == x:
+                #     print("\033[31m{} \033[0m".format(_input[py][px]), end="")
+                # else:
+                if _input[py][px] == 0:
+                    print("\033[90m{} \033[0m".format(_input[py][px]), end="")
+                elif _input[py][px] >= 10:
+                    print("\033[96m{} \033[0m".format("+"), end="")
                 else:
-                    if _input[py][px] == 0:
-                        print("\033[90m{} \033[0m".format(_input[py][px]), end="")
-                    elif _input[py][px] >= 10:
-                        print("\033[96m{} \033[0m".format("+"), end="")
-                    else:
-                        print("\033[93m{} \033[0m".format(_input[py][px]), end="")
+                    print("\033[93m{} \033[0m".format(_input[py][px]), end="")
             print()
         # input()
-        # sleep(0.005)
+        sleep(0.1)
 
 if __name__ == '__main__':
     flashes = 0
