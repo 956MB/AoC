@@ -1,6 +1,8 @@
 import itertools
 import time
 
+# https://adventofcode.com/2022/day/1
+
 def _1(inp):
     return max([sum([int(n) for n in l]) for l in [list(y) for x, y in itertools.groupby(inp.split('\n'), lambda z: z == '') if not x]])
 
