@@ -2,6 +2,31 @@
 
 _Most_ of my [Advent of Code](https://adventofcode.com) solutions. All (for now) done in `Python`. As with my [Kata](https://github.com/956MB/Kata)... please don't laugh.
 
+```lua
+               =========                  Project: AoC (1 branch)
+            ===============               HEAD: b8f6cd0 (master, origin/master)
+           =================              Pending: 1+-
+          ===  ==============             Created: 3 years ago
+          ===================             Language:
+                   ==========                       ● Python (100.0 %)
+   ========================== =======     Last change: 5 minutes ago
+ ============================ ========    Contributors: 3
+============================= =========   URL: https://github.com/956MB/AoC.git
+============================ ==========   Commits: 29
+========================== ============   Churn (1): 21/2.py 1
+============ ==========================              20/1.py 1
+========== ============================              …/2/2.py 1
+========= =============================   Lines of code: 15516
+ ======== ============================    Size: 554.14 KiB (66 files)
+  ======= ==========================      License: MIT
+          ==========
+          ===================
+          ==============  ===
+           =================
+            ===============
+               =========
+```
+
 ### 2025
 
 -   [Day 1: Secret Entrance](https://adventofcode.com/2025/day/1) **<sup>\* \*</sup>** &nbsp;:&nbsp; [1.py](./25/python/1.py)
