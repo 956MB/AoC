@@ -22,5 +22,4 @@ def _2(input, start):
 if __name__ == "__main__":
     # inp = open("input/1_sample.txt", "r").read().splitlines()
     inp = open("input/1.txt", "r").read().splitlines()
-    print(_1(inp, 50))
-    print(_2(inp, 50))
+    print("1:", _1(inp, 50), "2:", _2(inp, 50))

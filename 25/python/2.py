@@ -29,5 +29,4 @@ def _2(ids):
 if __name__ == "__main__":
     # inp = open("input/2_sample.txt", "r").read().split(",")
     inp = open("input/2.txt", "r").read().split(",")
-    print(_1(inp))
-    print(_2(inp))
+    print("1:", _1(inp), "2:", _2(inp))
