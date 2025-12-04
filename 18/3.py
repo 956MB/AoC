@@ -35,7 +35,7 @@ def pp(inp):
     print()
 
 if __name__ == '__main__':
-    inp = open('p2.txt', 'r').read().splitlines()
+    inp = open('input/3.txt', 'r').read().splitlines()
     start = time.time()
     print(_2(inp))
     end = time.time()

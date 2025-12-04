@@ -24,7 +24,7 @@ def _1(inp, _2=False):
     return ''.join([l[-1] for l in crates]).replace('[', '').replace(']', '')
 
 if __name__ == '__main__':
-    inp = open('p2.txt', 'r').read().split('\n\n')
+    inp = open('input/5.txt', 'r').read().split('\n\n')
     start = time.time()
     print(_1(inp, True))
     end = time.time()

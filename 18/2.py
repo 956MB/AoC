@@ -22,7 +22,7 @@ def _2(inp):
     return ''.join([m[0][l] if m[0][l] == m[1][l] else '' for l in range(len(m[0]))])
 
 if __name__ == '__main__':
-    inp = open('p2.txt', 'r').read().splitlines()
+    inp = open('input/2.txt', 'r').read().splitlines()
     start = time.time()
     print(_2(inp))
     end = time.time()

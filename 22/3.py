@@ -10,7 +10,7 @@ def _2(inp):
     return sum([string.ascii_letters.index(i)+1 for i in [t for group in [list(set(g[0]).intersection(g[1], g[2])) for g in [inp[i:i + 3] for i in range(0, len(inp), 3)]] for t in group]])
 
 if __name__ == '__main__':
-    inp = open('p2.txt', 'r').read().splitlines()
+    inp = open('input/3.txt', 'r').read().splitlines()
     start = time.time()
     print(_2(inp))
     end = time.time()

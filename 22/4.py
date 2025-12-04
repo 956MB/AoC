@@ -19,7 +19,7 @@ def _2(inp):
     return c
 
 if __name__ == '__main__':
-    inp = open('p2.txt', 'r').read().splitlines()
+    inp = open('input/4.txt', 'r').read().splitlines()
     start = time.time()
     print(_2(inp))
     end = time.time()

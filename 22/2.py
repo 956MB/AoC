@@ -34,7 +34,7 @@ def _2(inp):
 
 if __name__ == '__main__':
     mm = {"A":1, "B":2, "C":3, "X":1, "Y":2, "Z":3}
-    inp = open('inp2.txt', 'r').read().splitlines()
+    inp = open('input/2.txt', 'r').read().splitlines()
     start = time.time()
     print(_1(inp))
     end = time.time()

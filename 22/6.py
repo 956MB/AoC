@@ -7,7 +7,7 @@ def _1(inp, mlen):
         if len(set(inp[i:i+mlen])) >= mlen: return i+mlen
 
 if __name__ == '__main__':
-    inp = open('p2.txt', 'r').read()
+    inp = open('input/6.txt', 'r').read()
     start = time.time()
     print(_1(inp, 14))
     end = time.time()
