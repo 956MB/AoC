@@ -33,6 +33,7 @@ _Most_ of my [Advent of Code](https://adventofcode.com) solutions. All (for now)
 -   [Day 2: Gift Shop](https://adventofcode.com/2025/day/2) **<sup>\* \*</sup>** &nbsp;:&nbsp; [Solution](./25/python/2.py) &nbsp;·&nbsp; [Input](./25/input/2.txt)
 -   [Day 3: Lobby](https://adventofcode.com/2025/day/3) **<sup>\* \*</sup>** &nbsp;:&nbsp; [Solution](./25/python/3.py) &nbsp;·&nbsp; [Input](./25/input/3.txt)
 -   [Day 4: Printing Department](https://adventofcode.com/2025/day/4) **<sup>\* \*</sup>** &nbsp;:&nbsp; [Solution](./25/python/4.py) &nbsp;·&nbsp; [Input](./25/input/4.txt)
+-   [Day 5: Cafeteria](https://adventofcode.com/2025/day/5) **<sup>\* \*</sup>** &nbsp;:&nbsp; [Solution](./25/python/5.py) &nbsp;·&nbsp; [Input](./25/input/5.txt)
 
 ### 2022
 
