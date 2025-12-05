@@ -35,6 +35,13 @@ _Most_ of my [Advent of Code](https://adventofcode.com) solutions. All (for now)
 -   [Day 4: Printing Department](https://adventofcode.com/2025/day/4) **<sup>\* \*</sup>** &nbsp;:&nbsp; [Solution](./25/python/4.py) &nbsp;·&nbsp; [Input](./25/input/4.txt)
 -   [Day 5: Cafeteria](https://adventofcode.com/2025/day/5) **<sup>\* \*</sup>** &nbsp;:&nbsp; [Solution](./25/python/5.py) &nbsp;·&nbsp; [Input](./25/input/5.txt)
 
+### 2024
+
+###### <sup>These don't have stars because I didn't solve them at the time.</sup>
+
+-   [Day 1: Historian Hysteria](https://adventofcode.com/2024/day/1) &nbsp;:&nbsp; [Solution](./24/1.py) &nbsp;·&nbsp; [Input](./24/input/1.txt)
+-   [Day 2: Red-Nosed Reports](https://adventofcode.com/2024/day/2) &nbsp;:&nbsp; [Solution](./24/2.py) &nbsp;·&nbsp; [Input](./24/input/2.txt)
+
 ### 2022
 
 -   [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1) **<sup>\* \*</sup>** &nbsp;:&nbsp; [Solution](./22/1.py) &nbsp;·&nbsp; [Input](./22/input/1.txt)
