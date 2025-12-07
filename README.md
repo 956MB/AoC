@@ -3,21 +3,21 @@
 _Most_ of my [Advent of Code](https://adventofcode.com) solutions. All (for now) done in `Python`. As with my [Kata](https://github.com/956MB/Kata)... please don't laugh.
 
 ```lua
-               =========                  Project: AoC (3 branches)
-            ===============               HEAD: 42bf7c2 (master, origin/master)
+               =========                  HEAD: 2388147 (master, github/master)
+            ===============               Pending: 1+-
            =================              Created: 3 years ago
           ===  ==============             Language:
           ===================                       ● Python (100.0 %)
                    ==========             Last change: now
    ========================== =======     Contributors: 3
- ============================ ========    URL: https://github.com/956MB/AoC.git
-============================= =========   Commits: 32
-============================ ==========   Churn (1): 22/1.py 1
-========================== ============              22/2.py 1
-============ ==========================              22/8.py 1
-========== ============================   Lines of code: 15556
-========= =============================   Size: 595.84 KiB (61 files)
- ======== ============================    License: MIT
+ ============================ ========    Commits: 36
+============================= =========   Churn (1): …/python/6.py 1
+============================ ==========              …/python/7.py 1
+========================== ============   Lines of code: 15666
+============ ==========================   Size: 685.74 KiB (76 files)
+========== ============================   License: MIT
+========= =============================
+ ======== ============================
   ======= ==========================
           ==========
           ===================
@@ -34,6 +34,8 @@ _Most_ of my [Advent of Code](https://adventofcode.com) solutions. All (for now)
 -   [Day 3: Lobby](https://adventofcode.com/2025/day/3) **<sup>\* \*</sup>** &nbsp;:&nbsp; [Solution](./25/python/3.py) &nbsp;·&nbsp; [Input](./25/input/3.txt)
 -   [Day 4: Printing Department](https://adventofcode.com/2025/day/4) **<sup>\* \*</sup>** &nbsp;:&nbsp; [Solution](./25/python/4.py) &nbsp;·&nbsp; [Input](./25/input/4.txt)
 -   [Day 5: Cafeteria](https://adventofcode.com/2025/day/5) **<sup>\* \*</sup>** &nbsp;:&nbsp; [Solution](./25/python/5.py) &nbsp;·&nbsp; [Input](./25/input/5.txt)
+-   [Day 6: Trash Compactor](https://adventofcode.com/2025/day/6) **<sup>\*</sup>** &nbsp;:&nbsp; [Solution](./25/python/6.py) &nbsp;·&nbsp; [Input](./25/input/6.txt)
+-   [Day 7: Laboratories](https://adventofcode.com/2025/day/7) **<sup>\* \*</sup>** &nbsp;:&nbsp; [Solution](./25/python/7.py) &nbsp;·&nbsp; [Input](./25/input/7.txt)
 
 ### 2024
 
