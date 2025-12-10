@@ -3,18 +3,18 @@
 _Most_ of my [Advent of Code](https://adventofcode.com) solutions. All (for now) done in `Python`. As with my [Kata](https://github.com/956MB/Kata)... please don't laugh.
 
 ```lua
-               =========                  HEAD: 2388147 (master, github/master)
-            ===============               Pending: 1+-
+               =========                  HEAD: 929b5e2 (master, github/master)
+            ===============               Pending: 3+
            =================              Created: 3 years ago
           ===  ==============             Language:
           ===================                       ● Python (100.0 %)
-                   ==========             Last change: now
+                   ==========             Last change: 32 seconds ago
    ========================== =======     Contributors: 3
- ============================ ========    Commits: 36
-============================= =========   Churn (1): …/python/6.py 1
-============================ ==========              …/python/7.py 1
-========================== ============   Lines of code: 15666
-============ ==========================   Size: 685.74 KiB (76 files)
+ ============================ ========    Commits: 38
+============================= =========   Churn (1): README.md 1
+============================ ==========              …/python/9.py 1
+========================== ============   Lines of code: 15734
+============ ==========================   Size: 699.56 KiB (79 files)
 ========== ============================   License: MIT
 ========= =============================
  ======== ============================
