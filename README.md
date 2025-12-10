@@ -36,6 +36,7 @@ _Most_ of my [Advent of Code](https://adventofcode.com) solutions. All (for now)
 -   [Day 5: Cafeteria](https://adventofcode.com/2025/day/5) **<sup>\* \*</sup>** &nbsp;:&nbsp; [Solution](./25/python/5.py) &nbsp;·&nbsp; [Input](./25/input/5.txt)
 -   [Day 6: Trash Compactor](https://adventofcode.com/2025/day/6) **<sup>\*</sup>** &nbsp;:&nbsp; [Solution](./25/python/6.py) &nbsp;·&nbsp; [Input](./25/input/6.txt)
 -   [Day 7: Laboratories](https://adventofcode.com/2025/day/7) **<sup>\* \*</sup>** &nbsp;:&nbsp; [Solution](./25/python/7.py) &nbsp;·&nbsp; [Input](./25/input/7.txt)
+-   [Day 9: Movie Theater](https://adventofcode.com/2025/day/9) **<sup>\*</sup>** &nbsp;:&nbsp; [Solution](./25/python/9.py) &nbsp;·&nbsp; [Input](./25/input/9.txt)
 
 ### 2024
 
